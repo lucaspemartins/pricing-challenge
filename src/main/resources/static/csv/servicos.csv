@@ -1,0 +1,61 @@
+Identificador do serviço;Nome do serviço;GeoJSON
+1;Analise de qualidade de solo;{"type":"Point","coordinates":[-53.318753242492676,-17.45045747024326]}
+1;Analise de qualidade de solo;{"type":"Point","coordinates":[-53.3182168006897,-17.451112512819016]}
+1;Analise de qualidade de solo;{"type":"Point","coordinates":[-53.317530155181885,-17.451603793205884]}
+1;Analise de qualidade de solo;{"type":"Point","coordinates":[-53.316822052001946,-17.4522178918272]}
+1;Analise de qualidade de solo;{"type":"Point","coordinates":[-53.316757678985596,-17.451132982861566]}
+1;Analise de qualidade de solo;{"type":"Point","coordinates":[-53.31909656524658,-17.451706143119793]}
+1;Analise de qualidade de solo;{"type":"Point","coordinates":[-51.24366760253906,-18.13997920518292]}
+1;Analise de qualidade de solo;{"type":"Point","coordinates":[-51.258087158203125,-18.158248764242263]}
+2;Contagem de pragas;{"type":"Point","coordinates":[-51.24229431152344,-18.166730410221938]}
+2;Contagem de pragas;{"type":"Point","coordinates":[-51.25602722167969,-18.18695421085826]}
+2;Contagem de pragas;{"type":"Point","coordinates":[-50.631866455078125,-17.581194026506008]}
+2;Contagem de pragas;{"type":"Point","coordinates":[-50.5755615234375,-17.5340586910414]}
+2;Contagem de pragas;{"type":"Point","coordinates":[-50.56732177734375,-17.558937202588748]}
+2;Contagem de pragas;{"type":"Point","coordinates":[-50.58929443359375,-17.5929759421994]}
+2;Contagem de pragas;{"type":"Point","coordinates":[-50.552215576171875,-17.612610761099063]}
+2;Contagem de pragas;{"type":"Point","coordinates":[-50.51513671875,-17.625699453900637]}
+2;Contagem de pragas;{"type":"Point","coordinates":[-50.49591064453125,-17.568102108678982]}
+2;Contagem de pragas;{"type":"Point","coordinates":[-50.5316162109375,-17.51441534942315]}
+1;Analise de qualidade de solo;{"type":"Point","coordinates":[-50.49591064453125,-17.471192519080635]}
+1;Analise de qualidade de solo;{"type":"Point","coordinates":[-50.43548583984375,-17.464642709350755]}
+1;Analise de qualidade de solo;{"type":"Point","coordinates":[-50.420379638671875,-17.518344187852207]}
+1;Analise de qualidade de solo;{"type":"Point","coordinates":[-50.362701416015625,-17.579884877364126]}
+1;Analise de qualidade de solo;{"type":"Point","coordinates":[-50.409393310546875,-17.661034178034562]}
+1;Analise de qualidade de solo;{"type":"Point","coordinates":[-50.44921875,-17.691128657307427]}
+1;Analise de qualidade de solo;{"type":"Point","coordinates":[-50.47531127929687,-17.732990849540233]}
+1;Analise de qualidade de solo;{"type":"Point","coordinates":[-50.55358886718749,-17.808841135842872]}
+2;Contagem de pragas;{"type":"Point","coordinates":[-50.51239013671875,-17.76830446915039]}
+2;Contagem de pragas;{"type":"Point","coordinates":[-50.4107666015625,-17.781381818516973]}
+2;Contagem de pragas;{"type":"Point","coordinates":[-50.3558349609375,-17.709444568316773]}
+2;Contagem de pragas;{"type":"Point","coordinates":[-50.3173828125,-17.744762830153043]}
+2;Contagem de pragas;{"type":"Point","coordinates":[-50.32012939453125,-17.790535393588964]}
+2;Contagem de pragas;{"type":"Point","coordinates":[-50.2459716796875,-17.820608121104375]}
+2;Contagem de pragas;{"type":"Point","coordinates":[-50.222625732421875,-17.879431386540517]}
+2;Contagem de pragas;{"type":"Point","coordinates":[-50.291290283203125,-17.914716001103248]}
+2;Contagem de pragas;{"type":"Point","coordinates":[-50.240478515625,-17.697670268598788]}
+1;Analise de qualidade de solo;{"type":"Point","coordinates":[-50.291290283203125,-17.646639386359777]}
+1;Analise de qualidade de solo;{"type":"Point","coordinates":[-50.22125244140625,-17.524892062923392]}
+1;Analise de qualidade de solo;{"type":"Point","coordinates":[-50.294036865234375,-17.519653781765818]}
+1;Analise de qualidade de solo;{"type":"Point","coordinates":[-50.294036865234375,-17.447612101734006]}
+1;Analise de qualidade de solo;{"type":"Point","coordinates":[-50.21575927734375,-17.424028633877878]}
+1;Analise de qualidade de solo;{"type":"Point","coordinates":[-50.118255615234375,-17.455472579972827]}
+1;Analise de qualidade de solo;{"type":"Point","coordinates":[-50.101776123046875,-17.5078670964508]}
+1;Analise de qualidade de solo;{"type":"Point","coordinates":[-50.11276245117187,-17.54060599889129]}
+1;Analise de qualidade de solo;{"type":"Point","coordinates":[-50.167694091796875,-17.59559404138381]}
+1;Analise de qualidade de solo;{"type":"Point","coordinates":[-50.033111572265625,-17.594284996533677]}
+1;Analise de qualidade de solo;{"type":"Point","coordinates":[-50.04272460937499,-17.518344187852207]}
+2;Contagem de pragas;{"type":"Point","coordinates":[-50.118255615234375,-17.633552213674417]}
+2;Contagem de pragas;{"type":"Point","coordinates":[-50.008392333984375,-17.625699453900637]}
+2;Contagem de pragas;{"type":"Point","coordinates":[-49.9273681640625,-17.617846352167]}
+2;Contagem de pragas;{"type":"Point","coordinates":[-49.98779296874999,-17.693745330416927]}
+2;Contagem de pragas;{"type":"Point","coordinates":[-50.09765625,-17.749994573141873]}
+2;Contagem de pragas;{"type":"Point","coordinates":[-50.0262451171875,-17.79576579725599]}
+2;Contagem de pragas;{"type":"Point","coordinates":[-50.88867187499999,-17.031838107667106]}
+1;Analise de qualidade de solo;{"type":"Point","coordinates":[-50.88935852050781,-17.05941036379214]}
+1;Analise de qualidade de solo;{"type":"Point","coordinates":[-50.906524658203125,-17.04890712689072]}
+1;Analise de qualidade de solo;{"type":"Point","coordinates":[-50.88111877441406,-17.070569405642324]}
+1;Analise de qualidade de solo;{"type":"Point","coordinates":[-51.04179382324219,-16.8886597873816]}
+1;Analise de qualidade de solo;{"type":"Point","coordinates":[-51.053466796875,-16.901799954655452]}
+1;Analise de qualidade de solo;{"type":"Point","coordinates":[-51.05209350585937,-16.92807754169301]}
+1;Analise de qualidade de solo;{"type":"Point","coordinates":[-50.93055725097656,-16.976681405451455]}
