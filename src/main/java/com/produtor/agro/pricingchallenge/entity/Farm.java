@@ -16,7 +16,6 @@ import javax.persistence.OneToMany;
 public class Farm {
 	
 	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Integer idFarm;
 	
 	private String farmName;
@@ -54,6 +53,13 @@ public class Farm {
 		this.farmName = farmName;
 		this.ownerName = ownerName;
 		this.paymentAmount = paymentAmount;
+	}
+
+	public Farm(Integer idFarm, String farmName, String ownerName) {
+		super();
+		this.idFarm = idFarm;
+		this.farmName = farmName;
+		this.ownerName = ownerName;
 	}
 
 	public Integer getIdFarm() {

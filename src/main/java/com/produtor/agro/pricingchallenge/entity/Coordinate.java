@@ -22,7 +22,7 @@ public class Coordinate {
 	private String coordinateType;
 	
 	@ManyToOne
-    @JoinColumn
+    @JoinColumn(name = "idFarm")
     private Farm farm;
 	
 	@OneToOne(mappedBy = "coordinate")
