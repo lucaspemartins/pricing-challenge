@@ -16,7 +16,7 @@ function onEachFeature(feature, layer) {
         		
             		if (status == "success") {
             			var payment = parseFloat(farm.paymentAmount).toFixed(2);
-            			layer.bindPopup(farm.farmName + "<br>R$ " + payment).addTo(mymap);
+            			layer.bindPopup(farm.farmName + "<br>R$ " + payment).addTo(mymap).openPopup();
             		}
             	});
             }
