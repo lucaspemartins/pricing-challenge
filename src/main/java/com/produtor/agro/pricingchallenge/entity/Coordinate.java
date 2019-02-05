@@ -45,6 +45,14 @@ public class Coordinate {
 		this.coordinateType = coordinateType;
 	}
 
+	public Integer getIdCoordinate() {
+		return idCoordinate;
+	}
+
+	public void setIdCoordinate(Integer idCoordinate) {
+		this.idCoordinate = idCoordinate;
+	}
+
 	public Double getLatitude() {
 		return latitude;
 	}

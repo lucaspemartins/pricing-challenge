@@ -2,11 +2,26 @@ var mymap;
 initMap();
 
 function onEachFeature(feature, layer) {
-    if (feature.properties && feature.properties.farmId) {
         layer.on('click', function (e) {
-        	console.log("You clicked the map at " + e.latlng);
-          });
-    }
+
+            if (feature.properties && feature.properties.farmId) {
+            	console.log("You clicked the map at " + e.latlng);
+            	$.ajax({
+            		method: "GET",
+            		url: "/farms/farmById",
+            		data: { 
+            			id: feature.properties.farmId
+            		},
+            	}).done(function (farm, status) {
+        		
+            		if (status == "success") {
+            			var payment = parseFloat(farm.paymentAmount).toFixed(2);
+            			layer.bindPopup(farm.farmName + "<br>R$ " + payment).addTo(mymap);
+            		}
+            	});
+            }
+        });
+    
 }
 
 function initMap() {
@@ -37,17 +52,15 @@ $.ajax({
 			coordinatesMap[farmId].push(coordinatesPair);
 		}
 		
-		var polygonsIndex = 0;
+		var myStyle = {
+			    "color": "#50c878"
+			};
 		for (var coordinatesMapKey in coordinatesMap) {
 			var polygonsCoordinate = coordinatesMap[coordinatesMapKey];
 			var polygon = L.polygon(polygonsCoordinate);
 			var geoJson = polygon.toGeoJSON();
 			geoJson.properties.farmId = coordinatesMapKey;
-			L.geoJSON(geoJson, {onEachFeature: onEachFeature}).addTo(mymap);
+			L.geoJSON(geoJson, {onEachFeature: onEachFeature, style: myStyle}).addTo(mymap);
 		}
-		
-		//var polygon = L.polygon(polygonsCoordinate).addTo(mymap);
-		//polygon.bindPopup("I am a polygon.");
 	}
 });
-

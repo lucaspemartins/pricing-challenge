@@ -16,6 +16,7 @@ public class CoordinateService {
 	private CoordinateRepository coordinateRepository;
 	
 	private static final String POLYGON = "polygon";
+	private static final String POINT = "point";
 	
 	public List<Coordinate> findAllCoordinates() throws SQLException {
 		return coordinateRepository.findAllCoordinates(POLYGON);
@@ -23,5 +24,9 @@ public class CoordinateService {
 	
 	public List<Coordinate> findAllFarmCoordinates() throws SQLException {
 		return coordinateRepository.findAllFarmCoordinates(POLYGON);
+	}
+	
+	public List<Coordinate> findAllServiceCoordinates() throws SQLException {
+		return coordinateRepository.findAllFarmCoordinates(POINT);
 	}
 }

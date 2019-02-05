@@ -6,8 +6,6 @@ import java.util.stream.Stream;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
@@ -22,14 +20,14 @@ public class Farm {
 	
 	private String ownerName;
 	
-	private String paymentAmount;
+	private Double paymentAmount;
 	
 	@OneToMany(mappedBy = "farm", cascade = CascadeType.ALL)
     private Set<Coordinate> coordinates;
 
 	public Farm() {	}
 
-	public Farm(Integer idFarm, String farmName, String ownerName, String paymentAmount, Coordinate... coordinates) {
+	public Farm(Integer idFarm, String farmName, String ownerName, Double paymentAmount, Coordinate... coordinates) {
 		super();
 		this.idFarm = idFarm;
 		this.farmName = farmName;
@@ -47,7 +45,7 @@ public class Farm {
         this.coordinates.forEach(x -> x.setCoordinate(this));
 	}
 
-	public Farm(Integer idFarm, String farmName, String ownerName, String paymentAmount) {
+	public Farm(Integer idFarm, String farmName, String ownerName, Double paymentAmount) {
 		super();
 		this.idFarm = idFarm;
 		this.farmName = farmName;
@@ -86,11 +84,11 @@ public class Farm {
 		this.ownerName = ownerName;
 	}
 
-	public String getPaymentAmount() {
+	public Double getPaymentAmount() {
 		return paymentAmount;
 	}
 
-	public void setPaymentAmount(String paymentAmount) {
+	public void setPaymentAmount(Double paymentAmount) {
 		this.paymentAmount = paymentAmount;
 	}
 	
