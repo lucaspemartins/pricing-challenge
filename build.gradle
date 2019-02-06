@@ -35,6 +35,8 @@ dependencies {
 	
 	// https://mvnrepository.com/artifact/org.locationtech.jts/jts-core
 	compile group: 'org.locationtech.jts', name: 'jts-core', version: '1.16.0'
+	// https://mvnrepository.com/artifact/org.datasyslab/geospark
+	compile group: 'org.datasyslab', name: 'geospark', version: '1.1.3'
 	
 	
 	
